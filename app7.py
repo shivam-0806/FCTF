@@ -11,7 +11,7 @@ def behind_the_curtains():
     if 'pclub_browser' in user_agent:
         message = f"<p>The flag can only be obtained by <code>pclub_browser.</code><br>{flag}</p>"
     else:
-        message = "<p>The flag can only be obtained by <code>pclub_browser.</code><br>No flag for you. Try peeking behind the curtain...</p>"
+        message = "<p>The flag can only be obtained by <code>pclub_browser</code><br>No flag for you. Try peeking behind the curtain...</p>"
 
     # HTML response
     html = f"""
